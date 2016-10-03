@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Azo-Sans'; /*a name to be used later*/
+    src: url('fonts/AzoSans-Regular.ttf'); /*URL to font*/
+}
+
+.navbar a {
+  color:#777;
+  text-shadow: none;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Azo-Sans', sans-serif;
+}
+
+.navbar li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-family: 'Azo-Sans', sans-serif;
+    font-size: 14px;
+}
+
+.navbar li a:hover {
+      background: rgba(0,0,0,.05);
+}
+
+.navbar {
+  border-bottom: 1px solid #e7e7e7;
+  background: rgba(255,255,255,.95);
+}
+
+.navbar img {
+  width:72%;
+  margin-left: 30px;
+  margin-bottom:10px;
+}
+
+
+.orange-box a {
+   text-transform: uppercase;
+  color: #ff7322!important;
+  text-shadow: none;
+  font-size: 1em;
+  font-weight: 700;
+  border: 2px solid #ff7322;
+  padding:15px;
+  margin:15px;
+}
+
+
+.navbar ul {
+  margin: 2px 40px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 35%;
+}
+
+.hero {
+  position: relative;
+  background: url(img/hero.jpeg) no-repeat center fixed;
+  background-size: cover;
+  height:530px;
+}
+
+h2 {
+  font-family: 'Azo-Sans', sans-serif;
+  text-align: center;
+}
+
+.hero h2 {
+  color:white;
+  margin: 0;
+  font-weight: 400;
+  padding: 25px;
+  font-size: 30px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+
+.featurette-heading h2 {
+  font-size:50px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-family: inherit;
+  display: block;
+  color: #5a5a5a;
+}
+
+body {
+  color: #5a5a5a;
+  font-family: 'Azo-Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
+}
+
+.lead {
+  margin-bottom: 20px;
+  font-size:16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.featurette-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.featurette {
+  margin-top: 100px;
+}
+
+.orangeP {
+  text-transform: uppercase;
+  color: #ff7322!important;
+  text-shadow: none;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #ff7322;
+  padding:10px 16px;
+  margin-bottom:5px;
+  display: inline-block;
+}
